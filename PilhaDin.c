@@ -67,7 +67,7 @@ int remove_Pilha(Pilha *pi){
 }
 
 int tamanho_Pilha(Pilha *pi){
-    if ( pi = NULL ){
+    if ( pi == NULL ){
         return 0;
     }
     int cont = 0;
@@ -99,5 +99,7 @@ void imprime_Pilha(Pilha* pi){
         printf("Matricula: %d\n", no->dados.matricula);
         printf("Nome: %s\n", no->dados.nome);
         printf("Notas: %f %f %f\n", no->dados.n1, no->dados.n2, no->dados.n3);
+        printf("----------------------------------\n");
+        no = no->prox;
     }
 }
