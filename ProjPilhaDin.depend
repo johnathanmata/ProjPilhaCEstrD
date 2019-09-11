@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1568162200 source:d:\faculdade\dados\projeto\projpilhadin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PilhaDin.h"
+
+1568159860 d:\faculdade\dados\projeto\projpilhadin\pilhadin.h
+	<stdbool.h>
+
+1568161970 source:d:\faculdade\dados\projeto\projpilhadin\pilhadin.c
+	<stdio.h>
+	<stdlib.h>
+	"PilhaDin.h"
+
